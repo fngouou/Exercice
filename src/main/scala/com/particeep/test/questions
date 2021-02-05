@@ -1,0 +1,40 @@
+1) Explain REST and RESTful
+    - REST(Representational State Transfer) is an architecture and communication mode used in web developpment
+    services with some characteristics : -client-server
+                                         -stateless
+                                         -cacheable
+                                         -layered
+                                         -Uniform Interface
+
+    - RESTful is an architecture that allow client and server to communicate without
+       knowing each other
+
+2) Explain the architectural style for the creation of a web API (client server communication, formatting language, etc.)
+    - First of all for client/server communication we need HTTp ( for request and code returns)
+    - (It's an option but very recommended is to use JSON, that makes data and
+        information really easy to read and to treated, we can use XML too
+    - Use Simple URI
+
+
+3) Explain HTTP requests types when used with RESTful web (GET, PUT, POST, etc.)
+    - GET : request data from a resource in read-only mode (normally, we can use it differently but good result is not guarantee)
+    - PUT | POST: send data to a server to create or update a resource
+                  ( difference is that put target collections of resources
+                    while pu target single resources)
+    - DELETE: deletes specified resource
+    - HEAD : Do the same thing as get but the response doesn't have body
+
+4) Explain the difference between stateless and stateful protocol. Which type of protocol is HTTP ?
+    - Stateless : Protocol that doesn't maintain state of latest HTTP request.
+                  For it, each request, even if its the same each time, is new
+    - Stateful : Opposite of Stateless
+    HTTP is a stateless protocol
+
+5) Explain the difference between a GET and a POST (like how are sent the parameters)
+    - GET : The parameters will be send directly via the url.This technique have clearly some limit
+            because of that and less secure.
+    - POST : Send parameters through the body and header
+6) You can’t work out how to solve a coding problem. What do you do to find the answer?
+    - I will search on the website (Stackoverflow, Github, etc..) and in the web in general
+    - Ask to my collegues
+    - Sometimes just walk or doing other thing during 5 minutes help me to find the answer
